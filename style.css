@@ -1,25 +1,26 @@
 * {
-    font-family: sans-serif;
+    font-family: monospace;
     margin: 0;
     box-sizing: border-box;
-}
+    
+} 
 
 
 body {
     background-color: rgb(253, 251, 251);
-    padding: 3%;
+    padding: 3%; 
 }
 
 
-h2, h3 {
+h2 {
     margin: 0 0 20px;
+    text-align: center;
 }
+
 
 p {
     margin-bottom: 5px;
 }
-
-
 
 #cabecalho {
     position: fixed;
@@ -27,12 +28,12 @@ p {
     background-color: rgb(9, 128, 84);
     color: white;
     width: 96%;
-    z-index: 1;
 }
 
 #titulo {
     text-align: center;
     padding: 10px 30px 0;
+    font-size: 2em;
 }
 
 .navegacao {
@@ -53,103 +54,78 @@ p {
 .navegacao li a {
     color: white;
     text-decoration: none;
+    font-size: large;
 }
 
 .conteudo {
-
-    max-width: 1200px;
-    margin: auto;
-    flex-grow: 1;
-    border: solid red;
+    width: 90%;
+    margin: auto;   
 }
 
-.conteudo-meio {
-    width: 66%;
-    display: inline-block;
-    border: solid red;
-}
 
 #minha_foto {
-    /* width: 300px; */
     margin-top: 40px;
-    height: 390px;
+    height: 400px;
     padding: 15px;
-
 }
+
+
 #listas {
     margin-top: 40px;
-    border: solid red;
-    width: 500px;
-
-}
-
-#licoes_aprendidas {
-    /* border: solid red; */
-    /* position: absolute;
-    width: 120px; */
-    
-}
-
-#licoes_a_aprender {
-    /* border: solid red; */
-    /* position: relative;
-    width: 120px;
-    left: 200px;
-    top: 16px; */
-}
-
-article {
-    /* position: absolute;
-    width: 500px;
-    top: 800px; */
-}
-
-aside {
-    /* position: relative;
-    width: 450px;
-    left: 600px;
-    top: 120px; */
-}
- 
-
-h2 {
-    text-align:center;
-
+    width: 430px;
 }
 
 
 .segunda-lista, .primeira-lista {
-  display: inline-block;
-  width: 40%;
-  margin-right: 10px;
-  padding: 10px;
-  border: solid red;
+    display: inline-block;
+    width: 40%;
+    margin-right: 10px;
+    padding: 10px;
   }
 
-#rodape {
-    background-color: darkgray;
-    font-family: sans-serif;
-    position: relative;
-    
-    top: 200px;
-    padding: 20px;
-    width: 100%;
-    text-align: center;
-    color: white;
-    bottom: 0;
-} 
 
 .artigos {
     margin-top: 40px;
-    border: solid red;
     height: 400px;
-
 }
 
-.article, .aside {
-    border: solid red;
+.lado-esquerdo, .lado-direito {
     display: inline-flex;
     width: 45%;
     margin-right: 10px;
     padding: 15px;
 }
+
+.tabelas {
+    margin: 10px;
+    vertical-align: 20ch;
+}
+
+
+.tabelas, .box-foto {
+    display: inline-block;
+    width: 45%;
+    margin-right: 40px;
+    padding: 15px;
+    
+
+}
+table, th, td {
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+}
+
+
+#rodape {
+    background-color: darkgray;
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+    
+} 
+
